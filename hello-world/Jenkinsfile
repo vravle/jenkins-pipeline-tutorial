@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Security Check') {
             steps {
-                echo 'Run the security check against the application' 
+                echo 'hii, changes in security chk' 
             }
         }
         stage('Run Unit Tests') {
